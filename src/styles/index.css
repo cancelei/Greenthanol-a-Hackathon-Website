@@ -52,15 +52,15 @@ body {
 /* change background url after 18 seconds */
 
 .home {
-  animation: changeBackground 30s infinite;
+  animation: changeBackground 20s infinite;
 }
 
 @keyframes changeBackground {
-  0% {
+  25% {
     background: url(../assets/section1backgroungoption2.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
   }
 
   50% {
@@ -70,7 +70,7 @@ body {
     background-repeat: no-repeat;
   }
 
-  100% {
+  75% {
     background: url(../assets/section1backgroungoption4.png);
     background-size: cover;
     background-position: center;
