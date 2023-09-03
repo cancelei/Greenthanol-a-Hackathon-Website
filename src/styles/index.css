@@ -49,10 +49,10 @@ body {
   background-repeat: no-repeat;
 }
 
-/* change background url after 10 seconds */
+/* change background url after 18 seconds */
 
 .home {
-  animation: changeBackground 10s infinite;
+  animation: changeBackground 18s infinite;
 }
 
 @keyframes changeBackground {
