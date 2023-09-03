@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>Project Name</b></h3>
+  <h3><b>Greenthanol Readme - Project Repository</b></h3>
 
 </div>
 
@@ -27,10 +27,9 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 Project Name<a name="about-project"></a>
+# 📖 Greenthanol<a name="about-project"></a>
 
-
-Add description long.
+A hackathon project about Bioethanol was developed during a weekend by a team of 4 members.
 
 ## 🛠 Built With Love and Passion<a name="built-with"></a>
 
@@ -59,8 +58,10 @@ Add description long.
 
 ### Key Features <a name="key-features"></a>
 
-Presentation of the Hackathon Project
-add key 2
+- Presentation of the Hackathon Project
+- Video Presentation
+- Participants and their Roles
+- Key Features of the Solution
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -92,15 +93,15 @@ Install Node Package by running:
 
 ### Usage
 
-- In other to use the repo you either to create a branch to create new features.
+- In order to use the repo you either create a branch to create new features.
 - But in order to run the project use the commands below:
-  - npm run build (It will create a production ready file)
+  - npm run build (It will create a production-ready file)
   - npm start (It will run the server on your local machine)
 
 ### Run Linters (Testing)
 
 I have added Linters different kinds of Linters to help avoid typos and ensure the best practices of the code base.
-So while using this repository if you need to check your work no matter if you have worked on HTML or CSS, or even JS you can use the commands below.
+So while using this repository if you need to check your work no matter if you have worked on HTML CSS, or even JS you can use the commands below.
 
 - To run the linter test on index.html or any HTML file. Use the below command:
 npx hint . 
@@ -132,28 +133,15 @@ N/A
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-add item 1
-add item 2
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🤝 Contributing <a name="contributing"></a>
-
-N/A
-
-## ⭐️ Show your support <a name="support"></a>
-
-N/A
+All future Updates of the Project can be reflected on this website.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Original design idea by Cindy Shin in Behance.<a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015.">BEHANCE</a>
-
-Icons by Surang (<a href="https://www.flaticon.com/br/icones-gratis/agricultura-e-jardinagem" title="agricultura e jardinagem ícones">Agricultura e jardinagem ícones criados por surang - Flaticon</a>)
-
+- Advantage Austria
+- Hackathon Organizers
 
 ## 📝 License <a name="license"></a>
 
