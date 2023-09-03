@@ -52,7 +52,7 @@ body {
 /* change background url after 18 seconds */
 
 .home {
-  animation: changeBackground 18s infinite;
+  animation: changeBackground 30s infinite;
 }
 
 @keyframes changeBackground {
