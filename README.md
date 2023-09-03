@@ -46,20 +46,20 @@ Add description long.
 <details>
   <summary>Server</summary>
   <ul>
-    <li>N/A</li>
+    <li>Webpack & Github Pages</li>
   </ul>
 </details>
 
 <details>
-<summary>Database</summary>
+<summary>Form Submission Service</summary>
   <ul>
-    <li>N/A</li>
+    <li>Formspree.io</li>
   </ul>
 </details>
 
 ### Key Features <a name="key-features"></a>
 
-add key 1
+Presentation of the Hackathon Project
 add key 2
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
