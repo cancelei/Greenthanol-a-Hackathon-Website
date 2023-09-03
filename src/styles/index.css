@@ -103,7 +103,33 @@ body {
   justify-content: space-between;
   width: 80%;
   margin: 0 auto;
-}	
+}
+
+.teammemberCard {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.teamimg {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid black;
+}
+
+.formParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  background: url(../assets/bg-section3.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 .contact-us {
   display: flex;
@@ -126,4 +152,25 @@ body {
   padding: 20px;
   background-color: #eaa9a9;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 100px;
+}
+
+.socialhandles {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.socialhandles > li {
+  list-style: none;
+}
+
+.footernav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
 }
