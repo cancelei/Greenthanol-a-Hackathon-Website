@@ -15,8 +15,12 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  background-color: #eaa9a9;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* background-color: #eaa9a9; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  background: url(../assets/navbackground.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .navbar > ul {
@@ -39,10 +43,39 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: url(../assets/background1.png);
+
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+/* change background url after 10 seconds */
+
+.home {
+  animation: changeBackground 10s infinite;
+}
+
+@keyframes changeBackground {
+  0% {
+    background: url(../assets/section1backgroungoption2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  50% {
+    background: url(../assets/section1backgroungoption3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  100% {
+    background: url(../assets/section1backgroungoption4.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 }
 
  .title {
@@ -141,6 +174,10 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   gap: 50px;
+  background: url(../assets/navbackground.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
 }
 
 .footer {
