@@ -151,33 +151,60 @@ body {
   border: 2px solid black;
 }
 
-.formParent {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 50vh;
-  background: url(../assets/bg-section3.jpeg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 .contact-us {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: url(../assets/bg-section3.jpeg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   gap: 50px;
   background: url(../assets/navbackground.png);
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
+}
+
+.formParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  width: 60%; /* Optional: To not make the form stretch too wide on larger screens */
+  background: rgba(255, 255, 255, 0.8); /* Adding a slight white background to improve form readability */
+  padding: 20px; /* Gives some space around the form */
+  border-radius: 10px; /* Optional: Rounds the corners for a more modern look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a slight shadow to the form */
+}
+
+.formParent label {
+  display: flex;
+  flex-direction: column; /* This will place the input below the label text */
+  margin-bottom: 15px; /* Adds some spacing between the form fields */
+  width: 100%; /* Ensures the label and its children stretch the full width of the form */
+}
+
+.formParent input[type="text"],
+.formParent input[type="email"],
+.formParent textarea {
+  width: 100%; /* Ensures form fields take up the full width of the form */
+  padding: 10px; /* Makes the form fields a bit more spacious and easier to type in */
+  border-radius: 5px; /* Rounds the corners for a more modern look */
+  border: 1px solid #ccc; /* A subtle border around form fields */
+}
+
+.formParent button {
+  cursor: pointer; /* Indicates the button is clickable */
+  background-color: #007BFF; /* A pleasant blue color */
+  color: white; /* Text color for the button */
+  padding: 10px 20px; /* Vertical and horizontal padding */
+  border: none; /* Removes any border */
+  border-radius: 5px; /* Matches the form fields */
+  transition: background-color 0.3s ease; /* A smooth transition for hover effect */
+}
+
+.formParent button:hover {
+  background-color: #0056b3; /* A slightly darker blue for the hover effect */
 }
 
 .footer {
