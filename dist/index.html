@@ -1,11 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wbpack Exercise Yess!! I did it!</title>
+    <title>Greenthanol a Hackathon team project about bio ethanol</title>
+    <link rel="stylesheet" type="text/css" href="styles/index.css">
 <script defer src="main.js"></script></head>
+
 <body>
-    <h1>Hello webpack! Yes I did it again! 200000111</h1>
+
+    <nav class="navbar">
+        <img class="logo" src="assets/LOGO_Greenthanol_white.png" alt="Greenthanol logo">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#the-logic">The Logic Behind</a></li>
+            <li><a href="#video">Video Demo</a></li>
+            <li><a href="#about-us">About us</a></li>
+            <li><a href="#contact-us">Contact us</a></li>
+        </ul>
+    </nav>
+
+    <section class="home">
+        <!-- <h1 class="title">Greenthanol</h1>
+        <p class="titlepg">Greenthanol is a project about bio ethanol</p> -->
+    </section>
+
+    <section id="the-logic" class="the-logic">
+        <h2>How Greenthanol Works</h2>
+        <p>
+        <ul>
+            <li><b>Collection:</b> Discarded paper from sources like newspapers and magazines is gathered.</li>
+            <li><b>Processing:</b> The collected paper is converted into cellulose, readying it for biofuel production.
+            </li>
+            <li><b>Fermentation & Distillation:</b> The cellulose undergoes fermentation and distillation, producing
+                ethanol similar to traditional methods but with an eco-friendly twist.</li>
+            <li><b>Utilization:</b> Beyond fuel, Greenthanol powers various products, from cleaning agents to vaccines.
+                By turning waste into energy, Greenthanol champions a sustainable, cleaner future.</li>
+        </ul>
+        </p>
+
+    </section>
+
+    <section id="video" class="video">
+        <iframe width=80% height=80% src="https://www.youtube.com/embed/1cC7nS_XfQw" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <section id="about-us" class="about-us">
+        <h2>About us</h2>
+        <p>A Diverse group with a Diverse Background</p>
+        <div class="team">
+            <div class="teammemberCard">
+                <p>Filipe Carvalho</p>
+                <img class="teamimg" src="./assets/team/foto-profissional-filipe.jpeg"></img>
+                <p> Designer & Ideator</p><a href="https://www.linkedin.com/in/carvalhofc/">Linkedin</a>
+            </div>
+            <div class="teammemberCard">
+                <p>Glauber Bannwart</p>
+                <img class="teamimg" src="./assets/team/developerglauber.jpg"></img>
+                <p>Software Developer</p>
+                <a href="https://www.linkedin.com/in/gbannwart/">Linkedin</a>
+            </div>
+            <div class="teammemberCard">
+                <p>Lucas Oliveira</p>
+                <img class="teamimg" src="./assets/team/lucasoliveira.jpeg"></img>
+                <p>Designer & Editor</p><a href="https://www.linkedin.com/in/lucasoliveirabr/">Linkedin</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-us" class="contact-us">
+        <h2>Contact Us</h2>
+
+
+        <!-- modify this form HTML and place wherever you want your form -->
+        <form class="formParent" action="https://formspree.io/f/myyqjjbp" method="POST">
+            <label>
+                Your Name:
+                <input type="fullname" name="name">
+            </label>
+            <label>
+                Your email:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Your message:
+                <textarea name="message"></textarea>
+            </label>
+            <!-- your other form fields go here -->
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <ul class="footernav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#the-logic">The Logic Behind</a></li>
+            <li><a href="#video">Video Demo</a></li>
+            <li><a href="#about-us">About us</a></li>
+            <li><a href="#contact-us">Contact us</a></li>
+        </ul>
+
+        <ul class="socialhandles">
+            <li><a href="facebook.com">Facebook</a></li>
+            <li><a href="Instagram.com">Instagram</a></li>
+            <li><a href="Twitter.com">Twitter</a></li>
+            <li><a href="Linkedin.com">Linkedin</a></li>
+        </ul>
+    </footer>
 </body>
+
 </html>

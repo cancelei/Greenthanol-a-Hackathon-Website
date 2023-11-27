@@ -1,1 +1,1 @@
-MIT
+Private Use
